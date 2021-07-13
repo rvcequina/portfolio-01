@@ -84,6 +84,11 @@ text-align: center;
     margin: 0px 20px;
     box-shadow: 3px 6px 14px 9px rgba(0,0,0,0.15);
     padding:20px;
+    cursor: pointer;
+}
+.card:hover{
+    background-color: beige;
+    transform: scale(1.05);
 }
 .card-logo{
     height: 20%;
