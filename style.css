@@ -1,0 +1,117 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,body{
+    margin:0;
+    padding:0;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    height: 60px;
+    max-height: 60px;
+    justify-content: space-between;
+}
+img{
+    height: 50px;
+    width: auto;
+    cursor:pointer;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   }
+
+nav{
+   display: flex;
+   height:100%;
+   margin-right: 30px;
+}
+.nav-link{
+   display: flex;
+    height: 100%;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    cursor:pointer;
+}
+.nav-link:hover{
+    background-color: grey;
+    color:white;
+}
+
+#bg-img{
+    min-height: 800px;
+    background: url(./images/alesia-kazantceva-VWcPlbHglYc-unsplash.jpg) no-repeat center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bg-img h1{
+   color:white;
+   font-size: 40px;
+  background-color: rgba(0,66,65,.5);
+  padding:30px;
+}
+
+.card-container{
+    display:flex;
+    justify-content: center;
+}
+#content-container {
+text-align: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+    min-width: 300px;
+    max-width: 300px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 0px 20px;
+    box-shadow: 3px 6px 14px 9px rgba(0,0,0,0.15);
+    padding:20px;
+}
+.card-logo{
+    height: 20%;
+}
+.card-title{
+    padding-top: 10px;
+    height: 20%;
+}
+.card-content{
+    height: 60%;
+    padding-top: 20px;
+}
+.services-text{
+   margin: 30px auto;
+
+}
+footer{
+    height: 200px;
+    background-color: #3E505B;
+}
+.mits-bg{
+    position:sticky;
+    bottom: 58px;
+    height: 800px;
+    right: 120px;
+}
+
+
+
+
+
